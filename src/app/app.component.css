@@ -1,0 +1,37 @@
+/* Navigation Bar */
+nav {
+    background-color: #d21034; /* Ghana Red */
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end; /* Moves menu items to the right */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffcc00; /* Ghana Yellow */
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
